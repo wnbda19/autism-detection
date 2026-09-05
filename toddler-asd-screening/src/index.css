@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #F5F3EF;
+  --color-foreground: #1E1B30;
+  --color-card: #FFFFFF;
+  --color-primary: #5C4FE5;
+  --color-secondary: #EEE9FF;
+  --color-secondary-foreground: #3D3580;
+  --color-primary-foreground: #FFFFFF;
+  --color-muted: #F0EDF8;
+  --color-muted-foreground: #7069A0;
+  --color-border: rgba(92, 79, 229, 0.14);
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --font-sans: "Nunito", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Nunito", system-ui, sans-serif;
+  background-color: #F5F3EF;
+  color: #1E1B30;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(92, 79, 229, 0.2);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(92, 79, 229, 0.4);
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

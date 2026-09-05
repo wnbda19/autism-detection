@@ -1,0 +1,15 @@
+export const SAUDI_REGIONS = [
+  "Makkah Province",
+  "Riyadh Province",
+  "Eastern Province",
+  "Madinah Province",
+  "Aseer Province",
+  "Jizan Province",
+  "Qassim Province",
+  "Tabuk Province",
+  "Ha'il Province",
+  "Najran Province",
+  "Al Baha Province",
+  "Al Jawf Province",
+  "Northern Borders Province",
+] as const;
